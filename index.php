@@ -17,7 +17,7 @@ $artpl->setTemplateDir('templates');
 $artpl->setCompileDir('compilers');
 $artpl->setCacheDir('caches');
 //$artpl->allow_output_file();
-//$artpl->get_output_file();
+$artpl->get_output_file();
 class MyTest
 {
 	public static $Myname = "Mohamedhelal";
